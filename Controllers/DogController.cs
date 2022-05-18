@@ -27,21 +27,21 @@ namespace WebApi.Controllers
             {
                 new Dog()
                 {
-                    Name = "Alex", Type = "Ovcharka", Birthday = Convert.ToDateTime("30.01.2001")
+                    Name = "Alex", Type = "Ovcharka", Birthday = "30.01.2001"
 
                 },
                 new Dog()
                 {
-                    Name = "Pasha", Type = "Pudel", Birthday = Convert.ToDateTime("18.01.2005")
+                    Name = "Pasha", Type = "Pudel", Birthday = "18.01.2005"
                 },
             
                 new Dog()
                 {
-                    Name = "Makar", Type = "Bolonka", Birthday = Convert.ToDateTime("20.02.2010")
+                    Name = "Makar", Type = "Bolonka", Birthday = "20.02.2010"
                 },
                 new Dog()
                 {
-                    Name = "Dima", Type = "Dober", Birthday = Convert.ToDateTime("21.02.2011")
+                    Name = "Dima", Type = "Dober", Birthday = "21.02.2011"
                 }
                     
             };
